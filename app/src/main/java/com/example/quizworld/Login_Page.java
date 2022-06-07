@@ -49,7 +49,6 @@ public class Login_Page extends AppCompatActivity {
         setContentView(R.layout.activity_login_page);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        //registering activity launcher
         registerActivityForGoogleSignIn();
         emailid=findViewById(R.id.emailid);
         pw=findViewById(R.id.password);
